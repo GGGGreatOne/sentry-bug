@@ -1,0 +1,13 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ion:flag-sharp">
+<path id="Vector" d="M3.98438 18.75H2.5V2.24102L2.6832 2.0582C2.81797 1.92305 3.62422 1.25 6.25 1.25C7.70352 1.25 9.3293 1.82461 10.7637 2.33125C11.9187 2.73945 13.0098 3.125 13.75 3.125C15.423 3.125 16.5906 2.56836 16.6016 2.5625L17.5 2.12734V12.2613L17.1547 12.434C17.098 12.4609 15.7496 13.125 13.75 13.125C12.807 13.125 11.6258 12.8461 10.3754 12.5504C8.96992 12.2184 7.5168 11.875 6.25 11.875C4.80977 11.875 4.30703 12.093 3.98438 12.2309V18.75Z" fill="url(#paint0_linear_3152_116193)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3152_116193" x1="7.12817" y1="15.7685" x2="21.8709" y2="4.56724" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF2626"/>
+<stop offset="0.291667" stop-color="#FF9314"/>
+<stop offset="0.6875" stop-color="#AB2CFF"/>
+<stop offset="1" stop-color="#0A05FF"/>
+</linearGradient>
+</defs>
+</svg>

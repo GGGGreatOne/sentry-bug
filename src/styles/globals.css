@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/assets/font/SFPRODISPLAYREGULAR.OTF');
+}
+
+@font-face {
+  font-family: 'New York';
+  src: url('../../public/assets/font/NewYorkPERSONALUSE.otf') format('opentype');
+}
+
+.app-transition {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.app-no-transition {
+  opacity: 0;
+}
+
+.page-transition-enter {
+  opacity: 0;
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transition: opacity 400ms ease-in;
+}
+
+.page-transition-exit {
+  opacity: 1;
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+}
+
+.tab-transition-enter {
+  bottom: -104px;
+}
+
+.tab-transition-enter-active {
+  bottom: 16px;
+  transition: 200ms linear;
+}
+
+.tabIcon-transition-enter {
+  transform: scale(0)
+}
+
+.tabIcon-transition-enter-active {
+transform: scale(1);
+transition: transform 400ms linear;
+}
+
+.createStepLeft-transition-enter {
+transform: translateX(-562px);
+}
+
+.createStepLeft-transition-enter-active {
+transform: translateX(0);
+transition: 300ms linear;
+}
+
+.createStepLeft-transition-exit {
+transform: translateX(0);
+}
+
+.createStepLeft-transition-exit-active {
+transform: translateX(-562px);
+transition: 300ms linear;
+}
+
+.createStepRight-transition-enter {
+transform: translateX(562px);
+}
+
+.createStepRight-transition-enter-active {
+transform: translateX(0);
+transition: 300ms linear;
+}
+
+.createStepRight-transition-exit {
+transform: translateX(0);
+}
+
+.createStepRight-transition-exit-active {
+transform: translateX(562px) ;
+transition: 300ms linear;
+}
+
+.token-menu-paper{
+  border-radius: 8px
+}
+
+.foo-bar .Toastify__progress-bar {
+  background-image: linear-gradient(90deg, #FF2626 30.81%, #FF9314 46.29%, #C369FF 67.28%, #7270FF 83.86%)
+}
